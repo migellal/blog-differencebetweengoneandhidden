@@ -1,4 +1,26 @@
 <resources>
     <string name="app_name">Difference between gone and hidden</string>
     <string name="action_settings">Settings</string>
+    <string name="btn1">Button 1</string>
+    <string name="btn2">Button 2</string>
+    <string name="btn3">Button 3</string>
+    <string name="apply">Apply</string>
+    <string name="shortcutsInfo">ena -> enabled, dis -> disabled\nvis -> visible, inv -> invisible,
+        gon -> gone\n0-> alpha 0, 255 alpha 255\n\n</string>
+
+    <string-array name="possibilities">
+        <item>ena&amp;vis&amp;255</item>
+        <item>ena&amp;inv&amp;255</item>
+        <item>ena&amp;gon&amp;255</item>
+        <item>dis&amp;vis&amp;255</item>
+        <item>dis&amp;inv&amp;255</item>
+        <item>dis&amp;gon&amp;255</item>
+        <item>ena&amp;vis&amp;000</item>
+        <item>ena&amp;inv&amp;000</item>
+        <item>ena&amp;gon&amp;000</item>
+        <item>dis&amp;vis&amp;000</item>
+        <item>dis&amp;inv&amp;000</item>
+        <item>dis&amp;gon&amp;000</item>
+    </string-array>
+
 </resources>
